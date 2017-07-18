@@ -1,0 +1,25 @@
+body {
+  margin:0;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+h1 {
+  background-color: black;
+  color:white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 60px;
+
+}
+
+.container {
+  display:flex;
+  flex-flow: wrap;
+}
+
+.container > div {
+  width: 25%;
+}
